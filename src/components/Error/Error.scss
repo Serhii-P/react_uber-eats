@@ -1,0 +1,15 @@
+@import '../../styles/utils';
+
+.error {
+  @extend %absolute-center;
+  flex-flow: column nowrap;
+
+  &__text {
+    font-size: 30px;
+  }
+
+  &__link {
+    font-size: 24px;
+    color: $color-green;
+  }
+}
